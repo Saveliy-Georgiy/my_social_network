@@ -14,7 +14,7 @@ const Profile = () => {
                     <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"/>
                 </div>*/}
             <div>
-                ava +description
+                ava + description
             </div>
             <MyPosts />
         </div>
