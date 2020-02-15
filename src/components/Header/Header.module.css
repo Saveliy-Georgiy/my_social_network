@@ -1,8 +1,21 @@
 .header {
-  grid-area:h;
-  background-color: green;
+    display: flex;
+    grid-area: h;
+    background-color: #dade7f;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
 }
 
 .header img {
-  width: 20px;
+    width: 50px;
+}
+
+.logoName {
+    margin-top: 5px;
+    color: #38de33;
+    font-size: 30px;
 }

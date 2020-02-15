@@ -7,18 +7,18 @@ import Post from "./Post/Post";
 const MyPosts = () => {
     return (
         <div>
-            <div>My posts</div>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button>Add post</button>
-            <button>Remove</button>
+            <div className={s.postsBlock}>
+                <h3>My posts</h3>
+            </div>
+            <div className={s.newPost}>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+            </div>
+            <div><button>Add post</button></div>
+            <div><button>Remove</button></div>
             <div>New post</div>
             <div className = {s.posts}>
-                <Post />
-                <Post />
-                <Post />
-                <Post />
-                <Post />
-                <Post />
+                <Post message='Hi, how are you?' likes = '15'/>
+                <Post message="It's my first post" likes = '20'/>
 
             </div>
         </div>
