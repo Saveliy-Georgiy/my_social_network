@@ -1,5 +1,3 @@
-import avatar from './../avatars/Dmitry.jpg'
-
 const FOLLOW = "FOLLOW";
 const UNFOLLOW = "UNFOLLOW";
 const SET_USERS = "SET_USERS";
