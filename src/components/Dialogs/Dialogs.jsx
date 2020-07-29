@@ -14,7 +14,6 @@ const Dialogs = (props) => {
 
     let onSendMessageClick = () => {
         props.sendMessage();
-
     };
 
     let onNewMessageChange = (e) => {

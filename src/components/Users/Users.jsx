@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./users.module.css";
+import styles from "./Users.module.css";
 import * as axios from 'axios';
 import userPhoto from "../../avatars/user.png";
 
@@ -13,7 +13,8 @@ let Users = (props) => {
 
     return <div>
         {
-            props.users.map(u => <div key={u.id}>
+            props.users.map(u =>
+                <div key={u.id}>
             <span>
                 <div>
                     <img src={u.photos.small != null ? u.photos.small: userPhoto} className={styles.userPhoto}/>
